@@ -4,7 +4,7 @@ Module to decrypt AWS KMS secrets. Please note that the decryted secrets are sto
 
 ## Usage
 
-To use this module please note that you must have a KMS key that you can use to encrypt/decrypt your secrets with.
+To use this module you're required to have a KMS key that you can use to encrypt/decrypt your secrets with.
 
 We simply declare a module block with the following configuration:
 
