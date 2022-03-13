@@ -10,7 +10,7 @@ We simply declare a module block with the following configuration:
 
 ```hcl
 module "database_password" {
-  source          = "github.com/bschaatsbergen/terraform-aws-kms-secrets-module"
+  source          = "github.com/bschaatsbergen/terraform-aws-kms-decrypter-module"
   encrypted_value = "AQICAHik727zqZfJBvOo7aQDkoijs82qoKWaF0soyBA3CNnb7gG339QIJjNdUD7obzUlfMWFAAAAbjBsBgkqhkiG9w0BBwagXzBd"
   kms_key         = "alias/example-kms-key"
   kms_key_region  = "eu-central-1"
