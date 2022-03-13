@@ -29,7 +29,7 @@ output "database_password" {
 
 The encrypted value is a base64 encoded string that is encrypted with the KMS key, see below for more information on how to encrypt your secrets.
 
-## Encrypting a value
+## Setting a encrypted value
 
 To encrypt a value you can use the `aws kms encrypt` function. This function takes a plaintext value and a KMS key ID and returns a base64 encoded ciphertext.
 
