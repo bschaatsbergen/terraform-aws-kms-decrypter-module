@@ -1,6 +1,6 @@
-# Terraform AWS KMS secrets module
+# Terraform AWS KMS decrypter module
 
-Module to decrypt AWS KMS secrets. Please note that the decryted secrets are stored in the Terraform state, we encourage you to always treat your Terraform state as a secret and never store it in a public repository.
+Module to decrypt AWS KMS encrypted values. Please note that the decryted secrets are stored in the Terraform state, we encourage you to always treat your Terraform state as a secret and never store it in a public repository.
 
 ## Usage
 
