@@ -9,4 +9,4 @@ output "database_password" {
   description = "decrypted value of the database_password secret"
   value       = module.database_password.decrypted_value
 }
-                      
+  
